@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dea500ed70.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Insertar Favicon Aqui -->
+    <!-- <link rel="icon" href="*.ico"> -->
+    <title>AutoShop</title>
+</head>
+<body>
+    <div class="contacto contenedor">
+        <header class="contacto">
+            <!-- Animacion -->
+            <h1 class="logo animate__animated animate__pulse">AutoShop</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="nuestros-productos.html">Nuestros Productos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </header>
+        <section class="contacto formulario">
+            <h2>Contactanos</h2>
+            <form action="" name="formulario" method="get">
+                <label class="titulo" for="nombre">Nombre: </label>
+                <input class="input-text" type="text" id="nombre" name="nombre">
+                <br>
+                <label class="titulo" for="apellido">Apellido: </label>
+                <input class="input-text" type="text" id="apellido" name="apellido">
+                <br>
+                <label class="titulo" for="email">E-Mail: </label>
+                <input class="input-text" type="text" id="email" name="email">
+                <br>
+                <label class="titulo" for="telefono">Telefono: </label>
+                <input class="input-text" type="text" id="telefono" name="telefono">
+                <br>
+                <p class="titulo">Producto de Interes</p>
+                <div class="checkbox">
+                    <input type="radio" id="interes" name="interes" value="polarizado">
+                    <label for="polarizado">Polarizado</label>
+                    <br>
+                    <input type="radio" id="interes" name="interes" value="lamina-de-seguridad">
+                    <label for="lamina-de-seguridad">Lamina de Seguridad</label>
+                    <br>
+                    <input type="radio" id="interes" name="interes" value="arquitectura">
+                    <label for="arquitectura">Arquitectura</label>
+                </div>
+                <br>
+                <div class="prueba">
+                    <label  for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+
+                <br>
+                <input class="button" id="btn" name="btn" type="submit" value="Enviar"> 
+            </form>
+            <script src="contacto.js"></script>
+        </section>
+        <section class="contacto direcciones">
+            <p><i class="fa-solid fa-clock"></i> Horarios de Atencion</p>
+            <ul>
+                <li>Lunes a Viernes de 08:00 a 18:00</li>
+                <li>Sabados de 09:00 a 12:00</li>
+            </ul>
+            <p><i class="fa-solid fa-phone"></i> +54 11 1111 1111</p>
+            <p><i class="fa-solid fa-envelope"></i> info@autoshop.com.ar</p>
+            <p><i class="fa-solid fa-map"></i> Balcarce 50, CABA</p>
+        </section>
+        <section class="contacto mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8401827044963!2d-58.37249508458616!3d-34.608202580458446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352c95f0d4f5%3A0xee8dc0a5eb259e82!2sBalcarce%2050%2C%20C1064%20CABA!5e0!3m2!1ses-419!2sar!4v1651880462862!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer class="contacto footer">
+            <p>© 2022 AutoShop</p>
+            <div class="redes">
+                <a href="http://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
