@@ -228,6 +228,10 @@ section {
     display: inline-block;
 }
 
+p.titulo {
+    margin-top: 0;
+}
+
 .input-text {
     margin-bottom: 1rem;
     color: #dfdfdf;
@@ -238,11 +242,8 @@ section {
 }
 
 .checkbox {
+    margin-bottom: 1rem;
     display: inline-block;
-}
-
-.checkbox input {
-    color: #202020;
 }
 
 .prueba {
@@ -359,6 +360,12 @@ footer a:hover  {
     .arquitectura {
         grid-column: 1/2;
     }
+
+    .horarios p{
+        margin-top: 0;
+    }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 768px and down) */
@@ -406,27 +413,13 @@ footer a:hover  {
                             "mapa"
                             "footer";
     }    
+    
+    .mapa{
+        padding-top: 0;
+    }
+
+    .mapa iframe {
+        width: -webkit-fill-available;
+        max-width: 400px;
+    }
 }
-
-
-/* .nuestros-productos.contenedor {
-    grid-template-rows: repeat(5, auto);
-    grid-template-columns: repeat(2, auto);
-    grid-template-areas: "header header"
-                        "presentacion presentacion"
-                        "polarizado polarizado"
-                        "lamina-seguridad arquitectura"
-                        "footer footer";
-}
-
-
-
-/* Maquetado Contacto */
-
-/* .contacto.contenedor {
-    grid-template-rows: auto auto auto auto ;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "header header "
-                        "formulario formulario"
-                        "direcciones mapa"
-                        "footer footer"; */
