@@ -15,6 +15,10 @@ img {
     max-height: 100%;
    }
 
+svg {
+    margin-right: 0.5rem;
+}   
+
 .contenedor {
     margin: auto;
     background-color: #dfdfdf;
@@ -72,6 +76,7 @@ header a:link, footer a:link, header a:visited, footer a:visited {
                         "direcciones mapa"
                         "footer footer";
 }
+
 .formulario {
     margin-right: auto;
     margin-left: auto;
@@ -218,16 +223,9 @@ section {
 
 .titulo {
     font-weight: 600;
-    width: 7rem;
+    width: 21rem;
     margin-bottom: 1rem;
     display: inline-block;
-}
-
-.prueba {
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 9rem;
-    vertical-align: middle;
 }
 
 .input-text {
@@ -245,6 +243,13 @@ section {
 
 .checkbox input {
     color: #202020;
+}
+
+.prueba {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 9rem;
+    vertical-align: middle;
 }
 
 textarea {
@@ -389,6 +394,18 @@ footer a:hover  {
                             "arquitectura "
                             "footer";
     }
+
+    /* Maquetado Contacto */
+
+    .contacto.contenedor {
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas: "header"
+                            "formulario"
+                            "direcciones"
+                            "mapa"
+                            "footer";
+    }    
 }
 
 
