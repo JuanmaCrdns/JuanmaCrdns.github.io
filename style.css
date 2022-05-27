@@ -63,8 +63,6 @@ header a:link, footer a:link, header a:visited, footer a:visited {
                         "footer footer footer";
 }
 
-
-
 /* Maquetado Contacto */
 
 .contacto.contenedor {
@@ -223,7 +221,7 @@ section {
 
 .titulo {
     font-weight: 600;
-    width: 21rem;
+    width: 25rem;
     margin-bottom: 1rem;
     display: inline-block;
 }
@@ -236,7 +234,7 @@ p.titulo {
     margin-bottom: 1rem;
     color: #dfdfdf;
     background-color: #202020;
-    width: 21rem;
+    width: 25rem;
     height: 1.5rem;
     border: none;
 }
@@ -246,19 +244,12 @@ p.titulo {
     display: inline-block;
 }
 
-.prueba {
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 9rem;
-    vertical-align: middle;
-}
-
 textarea {
     margin-bottom: 1rem;
     color: #dfdfdf;
     background-color: #202020;
-    width: 21rem;
-    height: 9rem;
+    width: 25rem;
+    height: 10rem;
     resize: none;
 }
 
@@ -266,8 +257,8 @@ textarea {
     color: #dfdfdf;
     background-color: #202020;
     font-weight: 600;
-    height: 2rem;
-    width: 4rem;
+    height: 2.5rem;
+    width: 5rem;
 }
 
 /* Maquetado de Footer */
@@ -364,8 +355,6 @@ footer a:hover  {
     .horarios p{
         margin-top: 0;
     }
-
-
 }
 
 /* Small devices (portrait tablets and large phones, 768px and down) */
@@ -414,6 +403,10 @@ footer a:hover  {
                             "footer";
     }    
     
+    .formulario, .titulo, .input-text, textarea {
+        width: -webkit-fill-available;
+    }
+
     .mapa{
         padding-top: 0;
     }
