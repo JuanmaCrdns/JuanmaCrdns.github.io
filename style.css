@@ -103,9 +103,13 @@ header {
 }
 
 .logo {
-    font-size: 3rem;
     margin: 1rem;
     display: inline-block;
+}
+
+.logo a {
+    font-size: 3rem;
+    text-decoration: none;
 }
 
 nav {
